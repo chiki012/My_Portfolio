@@ -1,5 +1,19 @@
 # My_Portfolio
 
-<img width="1276" alt="readme_portfolio" src="https://github.com/chiki012/My_Portfolio/assets/127822363/6fe04939-cade-404c-96ea-7044058a1713">
+### Home & About Section :
 
+https://github.com/chiki012/My_Portfolio/assets/127822363/5e8d5b7e-8f8d-40d9-891d-71fed5766220
+
+### Area of Interest Section:
+
+https://github.com/chiki012/My_Portfolio/assets/127822363/44c450a8-9b92-4be0-93c7-eec359ab583c
+
+### Projects Section:
+
+https://github.com/chiki012/My_Portfolio/assets/127822363/2cceff85-7e2e-4c88-8902-de5f3c795a18
+
+
+### Contact Me Section (Connected With Excel)
+
+https://github.com/chiki012/My_Portfolio/assets/127822363/788b984f-1514-4a02-b98b-7c488aed6ddd
 
