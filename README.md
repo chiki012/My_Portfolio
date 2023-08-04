@@ -20,3 +20,6 @@ https://github.com/chiki012/My_Portfolio/assets/127822363/2cceff85-7e2e-4c88-890
 
 https://github.com/chiki012/My_Portfolio/assets/127822363/788b984f-1514-4a02-b98b-7c488aed6ddd
 
+
+### Responsive Website:
+![responsive_page](https://github.com/chiki012/My_Portfolio/assets/127822363/eff95960-152c-4361-b207-5e450b8772ae)
