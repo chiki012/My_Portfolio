@@ -549,13 +549,18 @@ nav .fa-solid {
     flex-basis: 100%;
   }
   .col-1 {
-    margin-bottom: 30px;
+    margin: 10px 0px;
+    text-align: center;
   }
-  .col-1 img {
-    width: 60vw;
+  .row .col-1 img {
+    width: 40vw;
   }
   .col-2 {
     font-size: 14px;
+  }
+  .col-2 .aboutTitle,
+  #project .projectTitle {
+    font-size: 35px;
   }
 
   .row .col-2 {
