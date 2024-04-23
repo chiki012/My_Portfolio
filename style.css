@@ -590,6 +590,17 @@ nav .fa-solid {
   .resumeBtn {
     width: 100%;
   }
+  
+   /* Project CSS */
+  .heading {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    padding: 22px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+  }
 }
 
-/* Project CSS */
+
