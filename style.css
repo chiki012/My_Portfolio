@@ -480,7 +480,7 @@ nav .fa-solid {
     position: fixed;
     top: 0;
     right: -200px;
-    width: 160px;
+    width: 150px;
     height: 100vh;
     padding-top: 20px;
     z-index: 2;
@@ -489,10 +489,9 @@ nav .fa-solid {
   nav ul li {
     display: block;
     /* margin: 25px; */
-
-    margin: 0px;
     margin-right: 20px;
   }
+
 
   nav ul .fa-solid {
     position: absolute;
