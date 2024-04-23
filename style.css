@@ -565,6 +565,34 @@ nav .fa-solid {
     background-color: #1f3d47b5;
     backdrop-filter: blur(15px);
   }
+
+  .projectParts h4 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: start;
+  }
+  .projectParts p {
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: start;
+  }
+
+  .projectParts a {
+    margin-top: 10px;
+    color: #ff004f;
+    font-size: 20px;
+    /* line-height: 60px; */
+    line-height: 30px;
+    background: #ffeaea;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+  }
+
   .contact-leftSide,
   .contact-rightSide {
     flex-basis: 100%;
