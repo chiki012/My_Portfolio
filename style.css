@@ -492,6 +492,7 @@ nav .fa-solid {
     display: block;
     margin: 25px;
     margin-right: 20px;
+    text-align: start;
   }
 
   nav ul .fa-solid {
