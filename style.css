@@ -492,7 +492,6 @@ nav .fa-solid {
     margin-right: 20px;
   }
 
-
   nav ul .fa-solid {
     position: absolute;
     top: 15px;
@@ -560,6 +559,10 @@ nav .fa-solid {
     width: 100%;
   }
 
+  .projectParts {
+    background-color: #1f3d47b5;
+    backdrop-filter: blur(15px);
+  }
   .contact-leftSide,
   .contact-rightSide {
     flex-basis: 100%;
