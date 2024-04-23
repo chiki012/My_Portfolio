@@ -240,8 +240,8 @@ nav ul li a:hover::after {
   top: -100%;
   right: 0;
   position: absolute;
-  background-color: #1f3d4738;
-  backdrop-filter: blur(15px);
+  background-color: #1f3d47a4;
+  backdrop-filter: blur(40px);
   border-radius: 15px;
   color: white;
   padding: 30px;
@@ -568,8 +568,8 @@ nav .fa-solid {
   }
 
   .projectParts {
-    background-color: #1f3d47b5;
-    backdrop-filter: blur(15px);
+    background-color: #1f3d47a4;
+    backdrop-filter: blur(40px);
   }
 
   .projectParts h4 {
@@ -591,3 +591,5 @@ nav .fa-solid {
     width: 100%;
   }
 }
+
+/* Project CSS */
