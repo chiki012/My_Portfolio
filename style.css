@@ -241,7 +241,7 @@ nav ul li a:hover::after {
   right: 0;
   position: absolute;
   background-color: #1f3d4738;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   border-radius: 15px;
   color: white;
   padding: 30px;
@@ -260,12 +260,14 @@ nav ul li a:hover::after {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: start;
 }
 .projectParts p {
   text-transform: capitalize;
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;
+  text-align: start;
 }
 
 .projectParts a {
