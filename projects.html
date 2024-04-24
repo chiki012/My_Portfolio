@@ -1,224 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Projects</title>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://kit.fontawesome.com/043e3e37d5.js" crossorigin="anonymous"></script>
-   <style>
-    .allProjects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 20px 90px;
-      gap: 30px;
-    }
-
-    .project {
-      width: calc(30% - 20px);
-    
-      background-color: rgba(191, 143, 237, 0.109);; 
-      border: 1px solid rgba(191, 143, 237, 0.378);; 
-      padding: 20px; 
-      box-sizing: border-box; 
-      border-radius: 5px; 
-    }
-
-    .project img {
-      width: 100%;
-      height: 200px; 
-      object-fit: cover;
-      margin-bottom: 20px; 
-      border-radius: 5px;
-    }
-
-    .project p {
-      margin-bottom: 20px;
-    }
-
-    .project .heading {
-      font-size: 12px;
-      text-transform: uppercase;
-      height: 10%;
-      width: 100%;
-      border-radius: 5px;
-      background-color: rgba(155, 15, 66, 0.798);
-      color: white;
-      border: none;
-      display: inline-block; 
-      padding: 5px 10px; 
-      text-decoration: none; 
-    }
-    .project .heading:hover {
-      cursor: pointer;
-    }
-
-    @media only screen and (max-width: 680px) {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Projects</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/043e3e37d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      header a{
+        display: block;
+        margin-left: 90px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+      }
       .allProjects {
-        justify-content: center; 
-        margin: 20px 40px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 90px;
+        gap: 30px;
       }
 
       .project {
-        width: calc(100% - 20px); 
+        width: calc(30% - 20px);
+
+        background-color: rgba(191, 143, 237, 0.109);
+        border: 1px solid rgba(191, 143, 237, 0.378);
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
       }
-    }
-  </style>
-</head>
 
-<body>
-  <header id="header">
-    <nav>
-      <ul id="sideMenu">
-        <li><a href="./index.html">Home</a></li>
-    </nav>
-  </header>
+      .project img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
 
-  <div class="allProjects">
-    <!-- <h1 class="projectTitle">Projects</h1> -->
+      .project p {
+        margin-bottom: 20px;
+      }
 
-    <div class="project">
-      <img src="project_images/room_added.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/Room_Adding_System" target="\_blank">
-        <button class="heading">
-          Room Adding System
-        </button>
-      </a>
+      .project .heading {
+        font-size: 12px;
+        text-transform: uppercase;
+        height: 10%;
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgba(155, 15, 66, 0.798);
+        color: white;
+        border: none;
+        display: inline-block;
+        padding: 5px 10px;
+        text-decoration: none;
+      }
+      .project .heading:hover {
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 680px) {
+        header a{
+           margin-left:50px;
+          }
+        .allProjects {
+          justify-content: center;
+          margin: 20px 40px;
+        }
+
+        .project {
+          width: calc(100% - 20px);
+        }
+        .header {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+
+      <a href="./index.html">Home</a></li>
+    </header>
+      
+
+    <div class="allProjects">
+      <!-- <h1 class="projectTitle">Projects</h1> -->
+
+      <div class="project">
+        <img src="project_images/room_added.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href="https://github.com/chiki012/Room_Adding_System"
+          target="\_blank"
+        >
+          <button class="heading">Room Adding System</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="project_images/getAllStudents.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href=" https://github.com/chiki012/Student_Marks_Info"
+          target="\_blank"
+        >
+          <button class="heading">Student Marks Info</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="project_images/foot_size.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a href=" https://github.com/chiki012/Foot_Size" target="\_blank">
+          <button class="heading">Foot Size</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/dl_logo.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href=" https://github.com/chiki012/Speech-Emotion-Recognition-Using-Deep-Learning"
+          target="\_blank"
+        >
+          <button class="heading">Speech Emotion Recognition</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/power_bi.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href="https://github.com/chiki012/Human-Resources-Visual-Analytics-and-Insights"
+          target="\_blank"
+        >
+          <button class="heading">Visual Analytics and Insights</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/figma2.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href="https://github.com/chiki012/SleepMonitoring_Prototype"
+          target="\_blank"
+        >
+          <button class="heading">Sleep Monitoring Prototype</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/netflix.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a
+          href="https://github.com/chiki012/Netflix_Clone_Figma"
+          target="\_blank"
+        >
+          <button class="heading">Netflix Clone</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/calculator.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a href="https://github.com/chiki012/Calculator" target="\_blank">
+          <button class="heading">Calculator</button>
+        </a>
+      </div>
+
+      <div class="project">
+        <img src="./project_images/maitri.png" alt="" />
+        <p>
+          Created a personal website portfolio using HTML, CSS, and JavaScript
+          to showcase my skills, projects, and achievements. Im
+        </p>
+        <a href="https://github.com/chiki012/Maitri" target="\_blank">
+          <button class="heading">Maitri (Student Management System)</button>
+        </a>
+      </div>
     </div>
-
-
-
-    <div class="project">
-      <img src="project_images/getAllStudents.png" alt="" />
-            <p>
-              Created a personal website portfolio using HTML, CSS, and
-              JavaScript to showcase my skills, projects, and achievements.
-              Im
-            </p>
-            <a
-            href=" https://github.com/chiki012/Student_Marks_Info" target="\_blank">
-      <button class="heading">
-        Student Marks Info
-      </button>
-      </a>
-    </div>
-
-
-    <div class="project">
-      <img src="project_images/foot_size.png" alt="" />
-            <p>
-              Created a personal website portfolio using HTML, CSS, and
-              JavaScript to showcase my skills, projects, and achievements.
-              Im
-            </p>
-            <a
-            href=" https://github.com/chiki012/Foot_Size" target="\_blank">
-      <button class="heading">
-        Foot Size
-      </button>
-      </a>
-    </div>
-
-
-    <div class="project">
-      <img src="./project_images/dl_logo.png" alt="" />
-            <p>
-              Created a personal website portfolio using HTML, CSS, and
-              JavaScript to showcase my skills, projects, and achievements.
-              Im
-            </p>
-            <a
-            href=" https://github.com/chiki012/Speech-Emotion-Recognition-Using-Deep-Learning" target="\_blank">
-      <button class="heading">
-        Speech Emotion Recognition
-      </button>
-      </a>
-    </div>
-
-
-    <div class="project">
-      <img src="./project_images/power_bi.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/Human-Resources-Visual-Analytics-and-Insights" target="\_blank">
-        <button class="heading">
-          Visual Analytics and Insights
-        </button>
-      </a>
-    </div>
-
-    <div class="project">
-      <img src="./project_images/figma2.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/SleepMonitoring_Prototype" target="\_blank">
-        <button class="heading">
-          Sleep Monitoring Prototype
-        </button>
-      </a>
-    </div>
-
-    <div class="project">
-      <img src="./project_images/netflix.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/Netflix_Clone_Figma" target="\_blank">
-        <button class="heading">
-          Netflix Clone
-        </button>
-      </a>
-    </div>
-
-
-
-    <div class="project">
-      <img src="./project_images/calculator.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/Calculator" target="\_blank">
-        <button class="heading">
-          Calculator
-        </button>
-      </a>
-    </div>
-
-
-
-    <div class="project">
-      <img src="./project_images/maitri.png" alt="" />
-      <p>
-        Created a personal website portfolio using HTML, CSS, and
-        JavaScript to showcase my skills, projects, and achievements.
-        Im
-      </p>
-      <a href="https://github.com/chiki012/Maitri" target="\_blank">
-        <button class="heading">
-          Maitri (Student Management System)
-        </button>
-      </a>
-    </div>
-
-
-  </div>
-</body>
-
+  </body>
 </html>
