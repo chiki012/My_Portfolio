@@ -536,10 +536,10 @@ nav .fa-solid {
   }
 
   .about-tab-title {
-    margin-right: 0px;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
+     margin-right: 10px;
     position: relative;
   }
 
