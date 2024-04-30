@@ -1,274 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanka's Portfolio</title>
+    <link rel="icon" href="images/logo.avif" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/043e3e37d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Priyanka's Portfolio</title>
-  <link rel="icon" href="images/logo.avif" type="image/x-icon">
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/043e3e37d5.js" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <header id="header">
+      <nav>
+        <img src="images/computer.webp" alt="" />
+        <ul id="sideMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutSection">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="menuClose()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="menuOpen()"></i>
+      </nav>
+    </header>
+    <main>
+      <!-- First Section: Home -->
+      <div id="homeSection">
+        <div class="leftSection">
+          <h1>Hi, My Name is <span class="nameColor">Priyanka</span></h1>
 
-<body>
-  <header id="header">
-    <nav>
-      <img src="images/computer.webp" alt="" />
-      <ul id="sideMenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#aboutSection">About</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#contactMe">Contact Me</a></li>
-        <i class="fa-solid fa-circle-xmark" onclick="menuClose()"></i>
-      </ul>
-      <i class="fa-solid fa-bars" onclick="menuOpen()"></i>
-    </nav>
-  </header>
-  <main>
-    <!-- First Section: Home -->
-    <div id="homeSection">
-      <div class="leftSection">
-        <h1>Hi, My Name is <span class="nameColor">Priyanka</span></h1>
+          <div>and I am a passionate</div>
 
-        <div>and I am a passionate</div>
-
-        <span id="element"></span>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <!-- <img src="images/backgroundcover.png" alt="" /> -->
+        </div>
       </div>
-      <div class="rightSection">
-        <!-- <img src="images/backgroundcover.png" alt="" /> -->
-      </div>
-    </div>
 
-    <!-- Second Section: About -->
-    <div id="aboutSection">
-      <div class="aboutContainer">
-        <div class="row">
-          <!-- in first column : images -->
-          <div class="col-1">
-            <img src="images/aboutme.webp" alt="" />
-          </div>
-          <!-- in second column : text -->
-          <div class="col-2">
-            <h1 class="aboutTitle">About Me</h1>
-            <p class="aboutDesc">
-              I am a 2024 batch student of Computer Science Engineering at BML
-              Munjal University. Being a CSE student I am eager to get a job
-              as a software engineer in a repeated industry I have knowledge
-              of Java, Python, HTML, CSS, React, JavaScript, etc. To
-              understand work culture, I had an internship in web development,
-              where I worked on live client-based projects. Web development
-              and had done some projects for the same. Also, I am currently
-              working on flutter-based mobile apps. I am open to learning new
-              things and getting involved with new projects to help me learn
-              or apply all I have learned throughout my university career.
-            </p>
-            <div class="about-tabs">
-              <p class="about-tab-title active-tab-title" onclick="openAboutTabs('skills')">
-                Skills
-              </p>
-              <p class="about-tab-title" onclick="openAboutTabs('experience')">
-                Experience
-              </p>
-              <p class="about-tab-title" onclick="openAboutTabs('education')">
-                Education
-              </p>
+      <!-- Second Section: About -->
+      <div id="aboutSection">
+        <div class="aboutContainer">
+          <div class="row">
+            <!-- in first column : images -->
+            <div class="col-1">
+              <img src="images/aboutme.webp" alt="" />
             </div>
-            <!-- Skills -->
-            <div class="about-tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Web Development</span><br />Web App Development</li>
-                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
-                <li>
-                  <span>App Development</span><br />Building Androi/ios Apps
-                </li>
-              </ul>
-            </div>
-            <!-- Experience -->
-            <div class="about-tab-contents" id="experience">
-              <ul>
-                <li>
-                  <span>May'22 - June'22</span><br />Developed the examination
-                  portal at <b>LI-MAT SOFT SOLUTION</b>
-                </li>
-                <li>
-                  <span>DEC'22 - Jan'23</span><br />Maintained the fronted
-                  part of Book Management System at
-                  <b>TECH PLACITA PRIVATE LIMITED</b>
-                </li>
-              </ul>
-            </div>
-            <!-- Education -->
-            <div class="about-tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>2020 - Present | Gurugram</span><br /><b>BML MUNJAL UNIVERSITY (B.Tech)</b><br />
-                  Cum. GPA: 8.03 / 10.0
-                </li>
-                <li>
-                  <span>2019 | Bikaner(Rajasthan)</span><br /><b>GOVT GIRLS LADY ALGIN SR SS SCHOOL
-                    (INTERMEDIATE)</b><br />
-                  Percentage : 85.40
-                </li>
-              </ul>
+            <!-- in second column : text -->
+            <div class="col-2">
+              <h1 class="aboutTitle">About Me</h1>
+              <p class="aboutDesc">
+                I'm a dedicated Computer Science Engineering student at BML
+                Munjal University and proficient in Java, JavaScript, Python,
+                and SQL, along with tools like Jira, Figma, and Power BI, and
+                frameworks such as React JS and Laravel, I've honed my skills
+                through hands-on experience. With professional experiences and
+                internships, I've developed a strong foundation in API creation,
+                UI/UX design, and frontend development. Recognized as a finalist
+                in Airbus Aerothon 5.0. I maintain a cumulative GPA of 8.03 and
+                am eager to contribute to impactful projects in the tech
+                industry.
+              </p>
+              <div class="about-tabs">
+                <p
+                  class="about-tab-title active-tab-title"
+                  onclick="openAboutTabs('skills')"
+                >
+                  Skills
+                </p>
+                <p
+                  class="about-tab-title"
+                  onclick="openAboutTabs('experience')"
+                >
+                  Experience
+                </p>
+                <p class="about-tab-title" onclick="openAboutTabs('education')">
+                  Education
+                </p>
+              </div>
+              <!-- Skills -->
+              <div class="about-tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Languages:</span><br />Java, JavaScript, Python, SQ
+                  </li>
+                  <li><span>Tools:</span><br />Jira, Figma, Power BI</li>
+                  <li><span>Frameworks:</span><br />React JS, Laravel</li>
+                </ul>
+              </div>
+              <!-- Experience -->
+              <div class="about-tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>March'24 - Present</span><br />Jr. software Engineer
+                    at
+                    <b>Care Health Insurance</b>
+                  </li>
+                  <li>
+                    <span>Oct'23 - Jan'24</span><br />UI/UX Design Intern at
+                    <b>InterestSave</b>
+                  </li>
+                  <li>
+                    <span>May'22 - June'22</span><br />Frontend Developement
+                    Intern at <b>LI-MAT SOFT SOLUTION</b>
+                  </li>
+                </ul>
+              </div>
+              <!-- Education -->
+              <div class="about-tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2020 - Present | Gurugram</span><br /><b
+                      >BML MUNJAL UNIVERSITY (B.Tech)</b
+                    ><br />
+                    Cum. GPA: 8.03 / 10.0
+                  </li>
+                  <li>
+                    <span>2019 | Bikaner(Rajasthan)</span><br /><b
+                      >GOVT GIRLS LADY ALGIN SR SS SCHOOL (INTERMEDIATE)</b
+                    ><br />
+                    Percentage : 85.40
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- ----- Project Section -----  -->
-    <div id="project">
-      <div class="container">
-        <h1 class="projectTitle">Projects</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/php.jpg" alt="" />
-            <div class="projectParts">
-              <h4>Student Marks Info</h4>
-              <p>
-                Created a comprehensive university app using Dart language
-                that includes features such as faculty details, student
-                details, subject details, and the quiz feature is also implemented.
-              </p>
-              <a href="https://github.com/chiki012/Student_Marks_Info" target="_blank">
-                <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
-              </a>
+      <!-- ----- Project Section -----  -->
+      <div id="project">
+        <div class="container">
+          <h1 class="projectTitle">Projects</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="project_images/dl_logo.png" alt="" />
+              <div class="projectParts">
+                <h4>Speech Emotion Recognition</h4>
+                <p>
+                  Developed Speech Emotion Recognition system, 50.34% accuracy.
+                  Used RAVDESS dataset, log Mel spectrograms, 1D CNN layers for
+                  optimization.
+                </p>
+                <a
+                  href="https://github.com/chiki012/Student_Marks_Info"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
+                </a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/laravel2.webp" alt="" />
+              <div class="projectParts">
+                <h4>Room Adding System</h4>
+                <p>
+                  a Laravel-based solution designed for efficient hotel/hostel
+                  room management. Implemented with MySQL database, it features
+                  intuitive API endpoints and frontend interfaces for seamless
+                  addition and management of room details.
+                </p>
+                <a
+                  href="https://github.com/chiki012/Room_Adding_System"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
+                </a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/web_work.webp" alt="" />
+              <div class="projectParts">
+                <h4>Foot Size</h4>
+                <p>
+                  Led the creation of a dynamic e-commerce platform exclusively
+                  for women's footwear, meticulously curating specialized
+                  sections and compelling promotional strategies to enrich the
+                  user experience.
+                </p>
+                <a href="https://chiki012.github.io/Foot_Size/" target="_blank">
+                  <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="work">
-            <img src="images/laravel2.webp" alt="" />
-            <div class="projectParts">
-              <h4>Room Adding System</h4>
+
+          <a href="./projects.html" class="seeMoreWorkBtn">See More</a>
+        </div>
+      </div>
+
+      <!-- ----- Contact Me Section -----  -->
+      <div id="contactMe">
+        <div class="container">
+          <div class="row">
+            <div class="contact-leftSide">
+              <h1 class="contactTitle">Contact Me</h1>
               <p>
-                Created a personal website portfolio using HTML, CSS, and JavaScript to showcase my skills, projects,
-                and achievements.
-                Implemented interactive elements and animations using JavaScript to engage visitors and provide a
-                dynamic browsing experience.
+                <i class="fa-solid fa-paper-plane"></i
+                >kachhawahapriyanka303@gmail.com
               </p>
-              <a href="https://github.com/chiki012/Room_Adding_System" target="_blank">
-                <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
-              </a>
+              <p><i class="fa-solid fa-phone"></i>+91-8094301208</p>
+              <div class="socialMedia">
+                <a
+                  href="https://www.linkedin.com/in/priyanka-721a15249"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://github.com/chiki012"
+                  target="_blank"
+                  class="github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://leetcode.com/PriyankaKachhawaha/"
+                  target="_blank"
+                  class="leetcode"
+                  ><i class="fa-sharp fa-solid fa-code"></i
+                ></a>
+                <a
+                  href="https://auth.geeksforgeeks.org/user/kachhawahapriyanka303"
+                  target="_blank"
+                  class="gfg"
+                >
+                  <i class="fa-solid fa-g"></i>
+                </a>
+              </div>
+              <!--  ----- resume download btn ----- -->
+              <a href="images/Prototype_CV.pdf" download class="resumeBtn"
+                >Download Resume</a
+              >
             </div>
-          </div>
-          <div class="work">
-            <img src="images/node.svg" alt="" />
-            <div class="projectParts">
-              <h4>Sleep Monitoring Prototype</h4>
-              <p>
-                The purpose of this prototype was to monitor the sleep quality of a person and deliver guidance for
-                better sleep. It is done using FIGMA.
-              </p>
-              <a href="https://github.com/chiki012/SleepMonitoring_Prototype" target="_blank">
-                <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
-              </a>
+            <div class="contact-rightSide">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  id="message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="submitBtn">Submit</button>
+              </form>
+              <span id="formMsg"></span>
             </div>
           </div>
         </div>
-
-        <a href="./projects.html" class="seeMoreWorkBtn">See More</a>
       </div>
-    </div>
 
-    <!-- ----- Contact Me Section -----  -->
-    <div id="contactMe">
-      <div class="container">
-        <div class="row">
-          <div class="contact-leftSide">
-            <h1 class="contactTitle">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>kachhawahapriyanka303@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i>+91-8094301208</p>
-            <div class="socialMedia">
-              <a href="https://www.linkedin.com/in/priyanka-721a15249" target="_blank" class="linkedin"><i
-                  class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/chiki012" target="_blank" class="github"><i
-                  class="fa-brands fa-github"></i></a>
-              <a href="https://leetcode.com/PriyankaKachhawaha/" target="_blank" class="leetcode"><i
-                  class="fa-sharp fa-solid fa-code"></i></a>
-              <a href="https://auth.geeksforgeeks.org/user/kachhawahapriyanka303" target="_blank" class="gfg">
-                <i class="fa-solid fa-g"></i>
-              </a>
-            </div>
-            <!--  ----- resume download btn ----- -->
-            <a href="images/Prototype_CV.pdf" download class="resumeBtn">Download Resume</a>
-          </div>
-          <div class="contact-rightSide">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required>
-              <input type="email" name="Email" placeholder="Your Email" required>
-              <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
-              <button type="submit" class="submitBtn">Submit</button>
-            </form>
-            <span id="formMsg"></span>
-          </div>
-        </div>
-      </div>
-    </div>
+      <footer class="copyRight">
+        <p>
+          Copyright &#169;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Priyanka' Portfolio <i class="fa-sharp fa-solid fa-heart fa-beat"></i>
+        </p>
+      </footer>
+    </main>
 
-    <footer class="copyRight">
-
-      <p>Copyright &#169;
-        <script>document.write(new Date().getFullYear())</script> Priyanka' Portfolio <i
-          class="fa-sharp fa-solid fa-heart fa-beat"></i>
-      </p>
-
-    </footer>
-  </main>
-
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed("#element", {
-      strings: ["UI/UX Developer.", "Web Developer."],
-      typeSpeed: 50,
-    });
-  </script>
-  <!-- Menu Open/Close -->
-  <script>
-    var sideMenu = document.getElementById("sideMenu");
-    function menuOpen() {
-      sideMenu.style.right = "0";
-    }
-    function menuClose() {
-      sideMenu.style.right = "-200px";
-    }
-  </script>
-  <!-- about section tabs -->
-  <script>
-    //   openAboutTabs : skills, experience, education
-    var openTabs = document.getElementsByClassName("about-tab-title");
-    var tabContents = document.getElementsByClassName("about-tab-contents");
-    function openAboutTabs(aboutTabName) {
-      for (openTab of openTabs) {
-        openTab.classList.remove("active-tab-title");
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["UI/UX Developer.", "Web Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <!-- Menu Open/Close -->
+    <script>
+      var sideMenu = document.getElementById("sideMenu");
+      function menuOpen() {
+        sideMenu.style.right = "0";
       }
-      for (tabContent of tabContents) {
-        tabContent.classList.remove("active-tab");
+      function menuClose() {
+        sideMenu.style.right = "-200px";
       }
+    </script>
+    <!-- about section tabs -->
+    <script>
+      //   openAboutTabs : skills, experience, education
+      var openTabs = document.getElementsByClassName("about-tab-title");
+      var tabContents = document.getElementsByClassName("about-tab-contents");
+      function openAboutTabs(aboutTabName) {
+        for (openTab of openTabs) {
+          openTab.classList.remove("active-tab-title");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
 
-      // color ko active krega or add krega -->
-      event.currentTarget.classList.add("active-tab-title");
-      document.getElementById(aboutTabName).classList.add("active-tab");
-    }
-  </script>
+        // color ko active krega or add krega -->
+        event.currentTarget.classList.add("active-tab-title");
+        document.getElementById(aboutTabName).classList.add("active-tab");
+      }
+    </script>
 
+    <!-- Contact form Script  -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxLgrFi5_pjpWmids6u6_i68RwfJAZ-Kol4bM2KOsVlUONAcNj2Tm5C2Rfql0CsKfo2/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const formMsg = document.getElementById("formMsg");
 
-  <!-- Contact form Script -->
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxLgrFi5_pjpWmids6u6_i68RwfJAZ-Kol4bM2KOsVlUONAcNj2Tm5C2Rfql0CsKfo2/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const formMsg = document.getElementById("formMsg");
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          formMsg.innerHTML = "Message Sent Successfully!"
-          setTimeout(function () {
-            formMsg.innerHTML = ""
-          }, 4000)
-          form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-</body>
-
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            formMsg.innerHTML = "Message Sent Successfully!";
+            setTimeout(function () {
+              formMsg.innerHTML = "";
+            }, 4000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
