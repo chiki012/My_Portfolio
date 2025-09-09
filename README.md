@@ -1,3 +1,3 @@
 
 # My_Portfolio
-Go and see the live website at: [https://chiki012.github.io/My_Portfolio/](https://priyanka-portfolio12.netlify.app/)
+Go and see the live website at: [PRIYANKA KACHHAWAHA](https://priyanka-portfolio12.netlify.app/)
